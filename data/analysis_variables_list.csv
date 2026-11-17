@@ -1,0 +1,16 @@
+variable,label,role_in_paper
+YYYYMM,Survey year and month,Linking; month fixed effects; sample period
+ID,Interview ID (unique only within a survey month),Linking (earlier interview)
+IDPREV,ID in previous interview (reinterviews only),Linking (later interview)
+DATEPR,Date (YYYYMM) of previous interview,Linking (later interview)
+METHOD,"Data collection method: 1 telephone CATI, 2 web, 3 telephone paper and pencil, 4 in person",Telephone vs web split; robustness check 1
+ICS,Index of Consumer Sentiment (respondent score),Dependent variable (change)
+ICC,Index of Current Economic Conditions,Robustness check 5
+ICE,Index of Consumer Expectations,Robustness check 6
+PX1,"Price expectations next 12 months, recoded and signed (-95 to 95; missing codes -97, 96 to 99)",Main explanatory variable (change)
+PX5,"Price expectations next 5 to 10 years, recoded and signed (same missing codes)",Robustness check 4
+AGE,Age of respondent (97 = 97 or older),Control
+INCOME,"Total household income, current USD","Control (entered in USD 10,000)"
+EDUC,"Education, six categories (1 to 6), recorded in all modes",Control
+REGION,"Region of residence: 1 West, 2 North Central, 3 Northeast, 4 South",Control (3 indicators)
+WT,Household head weight used for estimation (mean 1),Robustness check 7; reconstruction of published series

@@ -1,0 +1,75 @@
+{
+  "gamma_web_minus_phone": {
+    "coef": -0.7535187371562242,
+    "se": 0.19447495394935657,
+    "p": 0.00010678626968418096
+  },
+  "restricted_pooled": {
+    "b_down": -0.20890579220489597,
+    "se_down": 0.037602615295430346,
+    "gamma": -0.31863914124718823,
+    "se_gamma": 0.05969712262602448,
+    "p_gamma": 9.4186876698949e-08,
+    "b_up": -0.5275449334520842,
+    "lambda": 2.5252767186783656,
+    "up_indicator": -4.563868572388606,
+    "se_up_indicator": 0.365936446620103,
+    "r2": 0.01963935432619046
+  },
+  "hc1_main": {
+    "se_down": 0.03781290471588642,
+    "se_gamma": 0.05998597655660281
+  },
+  "curvature": {
+    "gamma_with_squares": -0.37215363562899756,
+    "se": 0.17876614885921716,
+    "p": 0.037361627659827236,
+    "x2_down": -0.006689466159610347,
+    "p_x2_down": 0.2459482337976039,
+    "x2_diff": 0.017309108065235883,
+    "p_x2_diff": 0.07107512523947933
+  },
+  "flow": {
+    "raw_records": 342345,
+    "reinterview_records": 124705,
+    "linked_pairs": 124704,
+    "pairs_valid_dICS_dPX1": 109828,
+    "zero_change": 26619,
+    "nonzero": 83209,
+    "missing_controls_among_nonzero": 5112,
+    "analytic_pairs": 78097,
+    "respondents": 74017,
+    "respondents_two_pairs": 4080,
+    "telephone_pairs": 73602,
+    "web_pairs": 4495,
+    "telephone_mode_change_pairs": 810,
+    "phone_web_pairs": 0,
+    "winsor_limits_dPX1": [
+      -22.0,
+      20.0
+    ],
+    "winsor_limits_dICS": [
+      -88.81,
+      88.82
+    ],
+    "first_t1": 198007,
+    "last_t1": 202508,
+    "first_t2": 198101,
+    "last_t2": 202602,
+    "web_first_t1": 202404,
+    "phone_last_t2": 202406
+  },
+  "sd_levels": {
+    "dICS_within_person_sd": 36.047309963844526,
+    "ICS_individual_sd_first_interview": 39.40896446170595
+  },
+  "software": {
+    "python": "3.12.6",
+    "numpy": "2.3.2",
+    "pandas": "2.2.3",
+    "statsmodels": "0.14.6",
+    "seed": 42,
+    "bootstrap_draws": 2000,
+    "data_extract_date": "2026-09-05 (SDA archive, sda.umsurvey.org)"
+  }
+}

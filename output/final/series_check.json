@@ -1,0 +1,11 @@
+{
+  "months": 578,
+  "ics_corr": 0.9999977940423733,
+  "ics_mean_abs_diff": 0.0245725982236239,
+  "px_median_corr": 0.9803053880120404,
+  "px_median_mean_abs_diff": 0.1329632306609249,
+  "px_mean_corr": 0.9310995205802003,
+  "px_old_corr": 0.5748742196384504,
+  "px_old_mean_diff": 7.808455785276223,
+  "px_mean_mean_diff": 0.8178773400607541
+}
