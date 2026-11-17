@@ -1,5 +1,3 @@
-data/raw/sca_microdata_raw.csv
-data/processed/
 __pycache__/
 *.pyc
 desktop.ini

@@ -14,8 +14,8 @@ Python 3.12.6, NumPy 2.3.2, pandas 2.2.3, statsmodels 0.14.6, matplotlib 3.10.1
 (`pip install -r requirements.txt`). Steps 2 and 4 estimate models with about 550 survey-month fixed
 effects and need about 4 GB of free RAM.
 
-## Raw data
-Not included. Follow `data/README.md` to download the SDA extract to `data/raw/sca_microdata_raw.csv`.
+## Data
+The SDA extract (5 September 2026) and the linked panel are included under `data/`. `data/README.md` explains how to obtain the original microdata from SDA.
 
 ## Order of execution (run from the repository root)
 | Step | Command | Produces |
