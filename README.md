@@ -26,8 +26,10 @@ The SDA extract (5 September 2026) and the linked panel are included under `data
 | 4 | `python scripts/09_final_estimates.py` | Tables 1-2, S1-S5 -> `output/final/` (30-60 min, bootstrap) |
 | 5 | `python scripts/revise01/run1_tables.py level` | magnitude restriction, curvature / initial expectations, common support + overlap weights -> `output/revise01/` |
 | 6 | `python scripts/revise01/run2_bootstrap.py level 2000 2000` | marginal slopes and full-pipeline overlap bootstrap -> `output/revise01/` |
-| 7 | `python scripts/10_final_figures.py` | Fig. 1, Figs. S1-S6 -> `output/figures/final/` |
-| 8 | `python scripts/11_verify_references.py` | `refs/reference_check.csv` |
+| 7 | `python scripts/revise02/run_revise02.py` | S11: month clustering, controls for initial levels, marginal slopes by mode -> `output/revise02/` (bootstrap 2,000 draws, seed 42) |
+| 8 | `python scripts/revise03/run_revise03.py` | S13: continuity at zero, rounding of expectations, inflation regime, respondent groups -> `output/revise03/` |
+| 9 | `python scripts/10_final_figures.py` | Fig. 1, Figs. S1-S6 -> `output/figures/final/` |
+| 10 | `python scripts/11_verify_references.py` | `refs/reference_check.csv` |
 
 The scripts in `scripts/revise01/` also accept `log` instead of `level` (revision measured as
 100 x dln(1 + PX1/100)); this is a scale sensitivity check reported in `output/revise01/SO_SANH_LEVEL_VS_LOG.md`
@@ -56,6 +58,8 @@ and is not used in the main text.
 | S7 size of revision (web) | `output/revise01/t1_magnitude_level.csv` |
 | S9.1 marginal slopes and contrasts | `output/revise01/t4_marginal_slopes_level.csv`, `t4_contrasts_level.csv` |
 | S10 common support, overlap weights, balance, bootstrap | `t3_mode_level.csv`, `t3_balance_level.csv`, `t5_overlap_bootstrap_level.json`, `t5_overlap_draws_level.csv` |
+| S11 | `output/revise02/` |
+| S13 (Tables S13, S14) | `output/revise03/review_checks.csv` |
 | Figures | `output/figures/final/` |
 
 In the paper, lambda is the *inflation aversion asymmetry ratio* |beta_up|/|beta_down| (a descriptive ratio of sentiment slopes, not a loss aversion coefficient).
