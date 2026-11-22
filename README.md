@@ -1,4 +1,4 @@
-# Asymmetric responses of consumer sentiment to inflation expectations and the Michigan Survey's move to the web
+# Inflation aversion and asymmetric consumer sentiment responses: evidence from the Michigan Surveys of Consumers
 
 Replication code and unrounded outputs for the manuscript and its Supplementary Materials
 (Michigan Surveys of Consumers, 78,097 six-month interview pairs, 1980-2026).
@@ -57,5 +57,7 @@ and is not used in the main text.
 | S9.1 marginal slopes and contrasts | `output/revise01/t4_marginal_slopes_level.csv`, `t4_contrasts_level.csv` |
 | S10 common support, overlap weights, balance, bootstrap | `t3_mode_level.csv`, `t3_balance_level.csv`, `t5_overlap_bootstrap_level.json`, `t5_overlap_draws_level.csv` |
 | Figures | `output/figures/final/` |
+
+In the paper, lambda is the *inflation aversion asymmetry ratio* |beta_up|/|beta_down| (a descriptive ratio of sentiment slopes, not a loss aversion coefficient).
 
 Headline unrounded numbers: pooled lambda 2.325 (95% CI [1.701, 3.397]); telephone 1.407; web 2.870.
